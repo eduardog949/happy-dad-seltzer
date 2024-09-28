@@ -1,5 +1,8 @@
 
-body {background-color: whitesmoke}
+body {
+    background-color: whitesmoke
+border:purple;
+}
 
 
 dd {
@@ -14,40 +17,48 @@ font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, O
 font-size: 90%;
 }
 
-a:link{color:white;
+a:link{
+    color:rgba(73, 107, 187, 0.702);
     text-decoration: none
-   
-}
+   }
 
-a:visited{color:white;
-    text-decoration: none
-}
-
-a:hover{color:blue;
+a:visited{
+    color:red;
     text-decoration: none
 }
 
-a:active{color:blue;
+a:hover{
+    color:blue;
     text-decoration: none
 }
 
-.back{text-decoration: underline;
+a:active{
+    color:blue;
+    text-decoration: none
 }
 
-.logo{margin-left:auto;
+.back{
+    text-decoration: underline;
+}
+
+.logo{  
+    margin:0;
+    margin-left:auto;
     margin-right:auto;
-    margin: bottom -400px;
-    display:block;
-    vertical-align:middle;
+     display:block;
     height:300px; 
     width:200 px;
 }
 
-.happy{margin: auto;
+.happy{
+    margin-right:auto;
+    margin-left:auto;
+    margin-top:40px;
     width: 50%;
-    border: 3px solid blue;
+    border: 1.5px solid black;
+    border-radius: 4px;
     padding: 15px;
-background-color:red;
+
 max-width:fit-content
 
 }
@@ -68,10 +79,53 @@ max-width:fit-content
 
 #blink {
     text-align: center;
-    margin-top: 20%;
+    margin-top:-240px;
     font-size: 24px;
     color: green;
     animation: blink 1s infinite; 
 }
    
-.bottomchange{background-image:linear-gradient(purple,white)}
+.bottomchange{background:linear-gradient(90deg,purple, 50px, white)
+  
+
+}
+
+#happy-dad-logo{
+   background:linear-gradient(90deg, purple, white);
+  padding-left: 0%;
+}
+
+
+
+
+#head-photo{
+transform: scale(0.47);
+margin-top:-242px;
+margin-left:-400px;
+margin-right:300px;
+display: block;
+}
+
+
+table {
+    margin-left:auto;
+    margin-right:auto;
+}
+
+th, td { 
+border: width 3pxl;
+border-style:solid;
+padding:5pxls;
+
+}
+
+.sugar-text{
+    color:purple;
+}
+
+
+.cans{transform:scale(0.40);
+margin-left:-300px;
+     }
+
+     #calories-header{text-align:center;}

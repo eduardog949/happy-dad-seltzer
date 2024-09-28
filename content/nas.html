@@ -1,10 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <style>
-      body {background-color: whitesmoke;}
-     
-      </style>
+    <link rel="stylesheet" href="/styles.css">
     <meta charset="UTF-8">
     <title>Happy Dad Seltzer</title>
   </head>
@@ -12,17 +9,16 @@
   <body> 
     
     <picture style="float:left">
-
-      <source type="image/jpeg" srcset="nas-logo.jpg 700w"
+    <source type="image/jpeg" srcset="nas-logo.jpg 700w"
   sizes="(max-width:300px) 15vw, (min-width:300px) 25vw" />
+   <img src="nas-logo.png" alt="no added sugar" />
+    </picture>
 
- <img src="nas-logo.png" alt="no added sugar" />
-
-</picture>
-<br>
+    <br>
      
  
-    <div id=""header">  <h1 style="color:purple"> No Added Sugar in Hard seltzers!</h1> 
+    <div id=""header">  
+      <h1 class="sugar-text"> No Added Sugar in Hard seltzers!</h1> 
    
    
    
@@ -37,12 +33,17 @@
  &copy;Eduardo Gutierrez
         </div>
 
+       <!--back-button-->
+      <div id="back-to-main">
         <nav>
-          <ul>
-            <div class="back"> <a style=color:black; href="http://127.0.0.1:3000/index.html">  <h5>Back to main page</h1>
-              </a></div>
-          
-          </ul>
-      </nav>
+        <ul>
+           <div class="back" >
+               <a style=color:black; href="http://127.0.0.1:3000/index.html"> 
+                    <span>Back to main page</span>
+               </a>
+           </div>
+       </ul>
+     </nav>
+   </div>
 
     </body>
